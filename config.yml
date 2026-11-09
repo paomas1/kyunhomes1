@@ -1,0 +1,5 @@
+# Limiti ayrica ayarlanmamis herkesin ev sayisi
+default-limit: 5
+
+# Isinlanmadan once beklenecek saniye (0 = aninda)
+teleport-delay-seconds: 3

@@ -1,0 +1,27 @@
+name: KyunHomes
+version: 1.0.0
+main: com.kyunsmp.homes.KyunHomes
+api-version: '1.21'
+description: Donut SMP tarzi home sistemi
+commands:
+  sethome:
+    description: Bulundugun yere ev kurar
+    usage: /sethome [isim]
+  delhome:
+    description: Bir evi siler
+    usage: /delhome <isim>
+  home:
+    description: Ev menusunu acar veya eve isinlar
+    usage: /home [isim]
+    aliases: [homes]
+  homelimit:
+    description: Bir oyuncunun ev limitini ayarlar
+    usage: /homelimit <oyuncu> [sayi]
+    permission: kyunhomes.admin
+permissions:
+  kyunhomes.admin:
+    description: Ev limitlerini yonetir
+    default: op
+  kyunhomes.bypassdelay:
+    description: Isinlanma beklemesini atlar
+    default: false
